@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: inherit;
+
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+  width: 1366px;
+  height: 500px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 192, 197);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.love-img{
+    margin-left: 108px;
+    animation-name: grow;
+    animation-duration: 0.5s;
+}
+@keyframes grow{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.love h2{
+    font-size: 3rem;
+}
+.love h2:first-child{
+    padding-left: 70px;
+}
+.love span{
+    font-size: 3rem;
+    color: #ec4134;
+}
+.love-yes-btn{
+    margin-left: 94px;
+    background-color: white;
+    border-radius: 12px;
+    height: 30px;
+    width: 130px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#yes{
+    color: red;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.love button{
+    margin-top: 50px;
+    margin-left: 94px;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    height: 30px;
+    width: 130px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 192, 197);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.app h2{
+    font-size: 4rem;
+    animation-name: grow;
+    animation-duration: 3s;
+}
